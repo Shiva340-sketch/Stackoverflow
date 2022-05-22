@@ -11,20 +11,6 @@
 5.   I am looking for  collaboration on stack overflow
 
 
----
-title: "Animate"
-author: "Thomas Bayes"
-date: "February 2, 2016"
-output: html_document
----
-
-
-```{r animate, echo=FALSE,  fig.show = 'animate'}
-x <- seq(from = 0, to = 10, by = .5)
-for(k in 1:5){
-    plot(x,sin(k*x), type = 'l')
-}
-```
 
 
 
